@@ -1,0 +1,12 @@
+name: Karate_WC_Map
+title: Karate_WC_Map
+username:
+account: th-neitmann
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 728401
+bundleId: 1886892
+url: https://th-neitmann.shinyapps.io/Karate_WC_Map/
+when: 1550672409.39613
+asMultiple: FALSE
+asStatic: FALSE
