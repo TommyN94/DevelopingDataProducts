@@ -1,0 +1,14 @@
+---
+title: "Interactive Plots using `plotly`"
+author: "Thomas Neitmann"
+date: "02/18/2019"
+output: slidy_presentation
+---
+
+## Example
+
+```{r, message=FALSE, fig.align='center', fig.height=4}
+library(plotly); data(mtcars)
+p = ggplot(mtcars, aes(hp, mpg, color = disp)) + geom_point() + geom_smooth()
+ggplotly(p)
+```
